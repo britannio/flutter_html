@@ -248,6 +248,7 @@ StyledElement parseStyledElement(
       styledElement.style = Style(
         margin: EdgeInsets.symmetric(vertical: 7.0),
         width: double.infinity,
+        height: 1,
         border: Border(bottom: BorderSide(width: 1.0)),
         display: Display.BLOCK,
       );
